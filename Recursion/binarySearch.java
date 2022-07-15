@@ -16,6 +16,7 @@ public class binarySearch {
         return search(arr, target, mid+1,e);
 
     }
+
     public static void main(String[] args) {
         int arr[] = {3,2,6,8,9,22,55,77,22}; // In binary search array must be sorted first to be able to apply binary search
         int target = 55;

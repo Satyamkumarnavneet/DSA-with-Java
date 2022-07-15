@@ -6,12 +6,12 @@ public class FindPermutuation {
             System.out.println(perm);
             return;
         }
-        for (int i = 0; i<str.length(); i++) {
-            char currChar = str.charAt(i);
-            String newStr = str.substring(0,i) + str.substring(i+1);
-            printPermutuation(newStr,perm+currChar,idx);
-        }
 
+        for(int i=0; i<str.length(); i++){
+          char currChar = str.charAt(i);
+          String newString = str.substring(0,i)+str.substring(i+1);
+          printPermutuation(newString,perm+currChar,idx+1);
+        }
     }
 
     public static void main(String[] args) {
