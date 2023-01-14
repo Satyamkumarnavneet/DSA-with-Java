@@ -1,13 +1,12 @@
 package Recursion;
-
 public class printSumofN {
     public static void printSum(int i, int n, int sum){
-        if (i ==n){
-            sum +=i;
+        if (i == n){
+            sum += i;
             System.out.println(sum);
             return;
         }
-        sum +=i;
+        sum += i;
         printSum(i+1, n, sum);
     }
     public static void main(String args[]) {

@@ -8,6 +8,20 @@ class pen {
         System.out.println(this.color);
         System.out.println(this.type);
     }
+
+}
+class stduent {
+    String name;
+    int roll;
+    stduent(){
+        System.out.println("Called");
+    }
+    stduent(String name){
+        this.name = name;
+    }
+    stduent(int roll){
+        this.roll = roll;
+    }
 }
 
 public class ClassObject {
@@ -20,8 +34,13 @@ public class ClassObject {
         pen2.color = "Red";
         pen2.type = "Gell";
 
-        pen1.printPenInfo();
-        pen2.printPenInfo();
+//        pen1.printPenInfo();
+//        pen2.printPenInfo();
+        stduent s1 = new stduent();
+
+
+
+
 
 
     }

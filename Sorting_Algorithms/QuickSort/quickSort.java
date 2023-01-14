@@ -18,11 +18,7 @@ public class quickSort {
         arr[i] = pivot;
         arr[high] = temp; // Pivot index
         return i;
-
-
     }
-
-
     public static void qSort(int arr[], int low, int high){
         if (low<high){
             int pivotIdx = particiation(arr,low,high);
@@ -37,7 +33,7 @@ public class quickSort {
         int n = arr.length;
         qSort(arr,0,n-1);
 
-        for (int i =0; i<n; i++){
+        for(int i =0; i<n; i++){
             System.out.print(arr[i]+ " ");
         }
         System.out.println();

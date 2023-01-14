@@ -18,7 +18,8 @@ public class removeDuplicates {
     }
 
     public static void main(String[] args) {
-        String str = "abbccdasatyamsupriya";
+        String str = "satyamsupriya";
         removeElement(str,0,"");
+        System.out.println('c' - 'a');
     }
 }

@@ -2,7 +2,8 @@ package Recursion;
 
 public class printNaturalnumber {
     public static void printnumb(int n){
-        if (n == 0){
+        if (n == 100){
+            System.out.println(100);
             return;
         }
         System.out.println(n);
@@ -10,7 +11,7 @@ public class printNaturalnumber {
     }
 
     public static void main(String[] args) {
-        int n = 5;
+        int n = 1;
         printnumb(n);
 
     }

@@ -2,7 +2,6 @@ package Recursion;
 
 public class fibonacciSeries {
     public static void printFib(int a, int b, int n){
-
         if (n == 0){
             return;
         }

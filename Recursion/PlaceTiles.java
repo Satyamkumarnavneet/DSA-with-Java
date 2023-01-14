@@ -14,11 +14,10 @@ public class PlaceTiles {
         // Vertically
         int placeVertic = placeTiles(n-1,m);
         return placeHoron+placeVertic;
-
     }
 
     public static void main(String[] args) {
-        int n = 4, m = 2;
+        int n = 2, m = 3;
         System.out.println(placeTiles(n,m));
 
     }

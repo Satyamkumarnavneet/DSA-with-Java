@@ -22,6 +22,5 @@ public class Abstraction {
         horse.walk();
         chicken chicken = new chicken();
         chicken.walk();
-
     }
 }

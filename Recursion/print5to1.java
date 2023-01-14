@@ -9,7 +9,6 @@ public class print5to1 {
         print_5to1(n-1);
 
     }
-
     public static void main(String[] args) {
         print_5to1(5);
     }

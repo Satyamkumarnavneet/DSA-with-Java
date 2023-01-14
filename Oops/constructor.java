@@ -23,10 +23,10 @@ class Student {
 
 
 //    Student(String name, int age, String gender){ // Parametrized constructor
-//        this.name = name;
-//        this.age = age;
-//        this.gender = gender;
-//    }
+////        this.name = name;
+////        this.age = age;
+////        this.gender = gender;
+////    }
 
     Student(Student s2){
         this.name = s2.name;

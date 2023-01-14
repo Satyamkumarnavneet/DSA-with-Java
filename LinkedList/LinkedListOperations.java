@@ -9,18 +9,15 @@ public class LinkedListOperations {
     LinkedListOperations(){
         this.size = 0;
     }
-
     class Node {
             String data;
             Node next;
-
             Node(String data) {
                 this.data = data;
                 this.next = null;
                 size++;
             }
         }
-
 
     // Add -- first, last
 
@@ -58,9 +55,7 @@ public class LinkedListOperations {
             System.out.print(currNode.data + " ->");
             currNode = currNode.next;
         }
-
         System.out.println("NULL");
-
     }
 
     // Delete first
@@ -73,6 +68,7 @@ public class LinkedListOperations {
         head = head.next;
     }
 
+
     public void deleteLast(){
         if(head == null){
             System.out.println("The list is empty");
@@ -84,7 +80,6 @@ public class LinkedListOperations {
             head = null;
             return;
         }
-
 
         Node secondLast = head;
         Node lastNode = head.next;
@@ -99,7 +94,6 @@ public class LinkedListOperations {
     public int getSize() {
         return size;
     }
-
     public static void main(String[] args) {
         LinkedListOperations list = new LinkedListOperations();
         list.addFirst("a");
@@ -123,9 +117,6 @@ public class LinkedListOperations {
 
         list.getSize();
         System.out.println(list.getSize());
-
-
-
 
     }
 }
