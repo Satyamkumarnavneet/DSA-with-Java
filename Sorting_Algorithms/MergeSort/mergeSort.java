@@ -35,7 +35,7 @@ public class mergeSort {
 
     }
     public static void main(String[] args) {
-        int arr[] = {3,6,9,5};
+        int arr[] = {9,8,3,6,9,5};
         int n = arr.length;
         divide(arr, 0,n-1);
         for (int i =0; i<n; i++){

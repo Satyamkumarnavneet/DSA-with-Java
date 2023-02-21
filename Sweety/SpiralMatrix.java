@@ -38,11 +38,8 @@ public class SpiralMatrix {
         System.out.println();
     }
     public static void main(String args[]){
-        int matrix[][]={{2,-1,2},
-                {3,2,1},
-                {-1,1,7},
-                {3,-1,17},
-                {0,1,-4}};
+        //int matrix [][] = {{2,3,4,5},{7,8,9,10},{11,12,13,14},{15,16,17,18}};
+        int matrix [][] = {{1,6,7,8},{12,11,5,9}};
         printspiral(matrix);
     }
 }
