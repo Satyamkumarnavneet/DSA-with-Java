@@ -20,6 +20,6 @@ public class FIndIndex {
     public static void main(String[] args) {
         int nums [] = {3,4,6,9,10};
         System.out.print("Element found at index: ");
-        System.out.println(findindex(nums,6));
+        System.out.println(findindex(nums,11));
     }
 }
