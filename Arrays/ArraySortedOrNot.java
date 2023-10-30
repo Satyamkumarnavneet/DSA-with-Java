@@ -16,15 +16,10 @@ public class ArraySortedOrNot {
                 isAscending = false;
             }
         }
-
         if (isAscending){
             System.out.println("The array is sorted in ascending order");
-
         } else {
             System.out.println("The array is mot sorted in ascending order");
         }
-
-
-
     }
 }
